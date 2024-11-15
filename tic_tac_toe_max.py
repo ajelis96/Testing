@@ -1,7 +1,3 @@
-# 0,0  0,1  0,2
-# 1,0  1,1  1,2
-# 2,0  2,1  2,2
-
 import random
 import time
 
@@ -69,9 +65,6 @@ def computer_move(board):
             break
 
 
-#If either the player or the computer wins, the state of the board should be printed out and the winner announced.
-#The program should exit at that point.
-
 def check_result(board):
     #checking for a tie
     if " " not in (board[0] + board[1] + board[2]):
@@ -107,10 +100,3 @@ def check_result(board):
 
 
 main()
-
-#main
-#change add
-
-#edit new edit temp over 9000
-
-#adding more text
